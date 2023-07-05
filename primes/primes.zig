@@ -6,7 +6,7 @@ pub fn primes(n: u32) bool {
         return false;
     }
 
-    var i: u32 = 6;
+    var i: u32 = 2;
 
     while (i * i <= n) {
         if (n % i == 0) {
