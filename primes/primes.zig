@@ -22,8 +22,8 @@ pub fn main() anyerror!void {
     const num: u32 = 6;
     const res: bool = primes(num);
     if (!res) {
-        print("The numer {} is not prime number", .{num});
+        print("The number {} is not prime number", .{num});
     } else {
-        print("The numer {} is a prime number", .{num});
+        print("The number {} is a prime number", .{num});
     }
 }
